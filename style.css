@@ -1,0 +1,19 @@
+img{
+    width:20px;
+}
+.navbar-header a{
+    display:flex;
+}
+.navbar-inverse{
+    background-color: #352BA5;
+    color:white;
+}
+.jumbotron.text-left{
+    background-color: #1B1B6C;
+    color: white;
+}
+footer{
+    text-align: left;
+    background-color: #1B1B6C;
+    color: white;
+}
