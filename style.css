@@ -1,19 +1,156 @@
-img{
-    width:20px;
+img {
+  width: 30px;
+  height: auto;
 }
-.navbar-header a{
-    display:flex;
+.navbar-header a {
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
-.navbar-inverse{
-    background-color: #352BA5;
-    color:white;
+.navbar-inverse {
+  background-color: #1B1B6C;
+  color: white;
 }
-.jumbotron.text-left{
-    background-color: #1B1B6C;
-    color: white;
+.jumbotron.text-left {
+  background-color: #13124F;
+  color: white;
 }
-footer{
-    text-align: left;
-    background-color: #1B1B6C;
-    color: white;
+footer div p {
+  padding: 15px 20px;
+  text-align: left;
+  background-color: #1B1B6C;
+  color: white;
+  margin: 0;
+}
+.panel.panel-default .panel-heading {
+  background-color: #F61067;
+  color: white;
+}
+.panel.panel-default .panel-heading .badge {
+  background-color: #352BA5;
+}
+.panel-body .btn.btn-danger.btn-block {
+  background-color: #F61067;
+}
+.btn.btn-success {
+  background-color: #F61067;
+  border: none;
+}
+.btn.btn-default {
+  background-color: #2AD392;
+  border: none;
+}
+.btn.btn-danger.btn-lg {
+  background-color: #F61067;
+  border: none;
+}
+.meter1 {
+  float: left;
+  background-color: #F61067;
+  width: 70%;
+  height: 7px;
+}
+.meter2 {
+  float: left;
+  background-color: #2AD392;
+  width: 30%;
+  height: 7px;
+}
+
+@media (max-width: 600px) {
+  .navbar-header a {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar-header img {
+    width: 40px;
+    margin-bottom: 5px;
+  }
+
+  .jumbotron h1 {
+    font-size: 1.8em;
+  }
+
+  .jumbotron p {
+    font-size: 1em;
+  }
+
+  .btn.btn-danger.btn-lg {
+    width: 100%;
+    font-size: 1em;
+  }
+
+  .col-md-8,
+  .col-md-4 {
+    width: 100%;
+    float: none;
+  }
+
+  iframe {
+    width: 100%;
+    height: auto;
+  }
+
+  footer div p {
+    text-align: center;
+    padding: 10px;
+  }
+
+  .panel.panel-default {
+    margin-bottom: 20px;
+  }
+
+  .meter1 {
+  float: left;
+  background-color: #F61067;
+  width: 70%;
+  height: 7px;
+}
+.meter2 {
+  float: left;
+  background-color: #2AD392;
+  width: 30%;
+  height: 7px;
+}
+}
+@media (min-width: 601px) and (max-width: 1024px) {
+  .navbar-header a {
+    flex-direction: row;
+  }
+
+  .jumbotron h1 {
+    font-size: 2em;
+  }
+
+  .jumbotron p {
+    font-size: 1.1em;
+  }
+
+  .col-md-8, .col-md-4 {
+    width: 100%;
+  }
+
+  iframe {
+    width: 100%;
+    height: auto;
+  }
+
+  footer div p {
+    text-align: center;
+  }
+}
+
+@media (min-width: 1025px) {
+  .navbar-header img {
+    width: 40px;
+  }
+
+  .navbar-header a {
+    font-size: 1.2em;
+  }
+
+  .jumbotron h1 {
+    font-size: 2.5em;
+  }
 }
