@@ -81,9 +81,10 @@ iframe {
     margin-top: 20px;
     align-items: center;
     height: 25px;
-    
+}.div3_r1 span{
+    display:flex;
+    justify-content: center;
 }
-
 .div3_r2{
     background-color: var(--gray);
     margin-top: 20px;
